@@ -23,11 +23,12 @@
            05  FILLER         PIC X(02) VALUE SPACES.
            05  LAST-NAME-O    PIC X(20).
            05  FILLER         PIC X(02) VALUE SPACES.
-           05  ACCT-LIMIT-O   PIC $$,$$$,$$9.
+           05  ACCT-LIMIT-O   PIC $$,$$$,$$9.99.
            05  FILLER         PIC X(02) VALUE SPACES.
            05  ACCT-BALANCE-O PIC $$,$$$,$$9.99.
            05  FILLER         PIC X(02) VALUE SPACES.
       *
+      * 文件描述 ACCT-REC,紀錄模式 F.  
        FD  ACCT-REC RECORDING MODE F.
        01  ACCT-FIELDS.
            05  ACCT-NO            PIC X(8).
@@ -41,6 +42,7 @@
                10  USA-STATE      PIC X(15).
            05  RESERVED           PIC X(7).
            05  COMMENTS           PIC X(50).
+      * GitHub 修改測試 202404121014
       * The USAGE Clause specifies the storage of a data item,
       * e.g USAGE IS COMP-3, or just COMP-3. 
       * COMP-3 is the equivalent of packed-decimal, frequently used

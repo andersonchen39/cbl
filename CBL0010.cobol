@@ -23,7 +23,7 @@
            05  FILLER         PIC X(02) VALUE SPACES.
            05  LAST-NAME-O    PIC X(20).
            05  FILLER         PIC X(02) VALUE SPACES.
-           05  ACCT-LIMIT-O   PIC $$,$$$,$$9.99
+           05  ACCT-LIMIT-O   PIC $$,$$$,$$9.
            05  FILLER         PIC X(02) VALUE SPACES.
            05  ACCT-BALANCE-O PIC $$,$$$,$$9.99.
            05  FILLER         PIC X(02) VALUE SPACES.

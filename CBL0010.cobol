@@ -61,6 +61,7 @@
        01  TLIMIT-TBALANCE.
            05 TLIMIT              PIC S9(9)V99 COMP-3 VALUE ZERO.
            05 TBALANCE            PIC S9(9)V99 COMP-3 VALUE ZERO.
+           05 BALANCE             PIC S9(9)V99 COMP-3 VALUE ZERO.
       *    Hint: to know which character format is being used,
       *    you can type HEX ON on the command line and compare to
       *    a ASCII/EBCDIC Table. then HEX OFF to turn hex numbers off

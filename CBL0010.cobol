@@ -28,7 +28,7 @@
            05  ACCT-BALANCE-O PIC $$,$$$,$$9.99.
            05  FILLER         PIC X(02) VALUE SPACES.
       *
-      * 文件描述 ACCT-REC,紀錄模式 F.  
+      * 紀錄模式 F.  
        FD  ACCT-REC RECORDING MODE F.
        01  ACCT-FIELDS.
            05  ACCT-NO            PIC X(8).
